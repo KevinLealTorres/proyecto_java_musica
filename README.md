@@ -29,7 +29,6 @@ Se trata de una interfaz gráfica funcional para agregar artistas a una base de 
 | albumview |
 | artists |
 | songs |
-| --- |
 
 
 2. Para la tabla albums:
@@ -39,7 +38,6 @@ Se trata de una interfaz gráfica funcional para agregar artistas a una base de 
 | album_id   | int(11) | NO   | PRI | NULL    | auto_increment |
 | album_name | text    | YES  |     | NULL    |                |
 | artist_id  | int(11) | YES  | MUL | NULL    |                |
-|------------|---------|------|-----|---------|----------------|
 
 3. Para la tabla albumview:
 
@@ -49,7 +47,6 @@ Se trata de una interfaz gráfica funcional para agregar artistas a una base de 
 | artist_name  | text    | YES  |     | NULL    |       |
 | track_number | int(11) | YES  |     | NULL    |       |
 | song_title   | text    | YES  |     | NULL    |       |
-|--------------|---------|------|-----|---------|-------|
 
 4. Para la tabla artists:
 
@@ -57,7 +54,6 @@ Se trata de una interfaz gráfica funcional para agregar artistas a una base de 
 |-------------|---------|------|-----|---------|----------------|
 | artist_id   | int(11) | NO   | PRI | NULL    | auto_increment |
 | artist_name | text    | YES  |     | NULL    |                |
-|-------------|---------|------|-----|---------|----------------|
 
 5. Para la tabla:
 
@@ -67,5 +63,4 @@ Se trata de una interfaz gráfica funcional para agregar artistas a una base de 
 | track_number | int(11) | YES  |     | NULL    |                |
 | song_title   | text    | YES  |     | NULL    |                |
 | album_id     | int(11) | YES  | MUL | NULL    |                |
-|--------------|---------|------|-----|---------|----------------|
 
