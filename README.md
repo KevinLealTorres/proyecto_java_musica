@@ -64,3 +64,6 @@ Se trata de una interfaz gráfica funcional para agregar artistas a una base de 
 | song_title   | text    | YES  |     | NULL    |                |
 | album_id     | int(11) | YES  | MUL | NULL    |                |
 
+
+## Punto de inicio:
+Es ```MusicManagementApp.java``` que es una GUI
